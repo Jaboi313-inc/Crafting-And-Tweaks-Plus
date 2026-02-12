@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "forged-path:iron_upgrade_smithing_template",
+  "base": "minecraft:chainmail_helmet",
+  "addition": "minecraft:iron_ingot",
+  "result": {
+    "id": "minecraft:iron_helmet"
+  }
+}

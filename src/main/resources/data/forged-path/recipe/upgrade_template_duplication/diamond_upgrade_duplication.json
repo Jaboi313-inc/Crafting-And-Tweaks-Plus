@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DTD",
+    "DCD",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "T": "forged-path:diamond_upgrade_smithing_template",
+    "C": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "forged-path:diamond_upgrade_smithing_template",
+    "count": 2
+  }
+}

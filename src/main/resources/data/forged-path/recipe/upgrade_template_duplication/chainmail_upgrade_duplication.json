@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DTD",
+    "DCD",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:iron_nugget",
+    "T": "forged-path:chainmail_upgrade_smithing_template",
+    "C": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "forged-path:chainmail_upgrade_smithing_template",
+    "count": 2
+  }
+}

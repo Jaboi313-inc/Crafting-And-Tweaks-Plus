@@ -1,0 +1,17 @@
+start with leather level armor that is craftable
+
+progression:
+
+leather
+↓
+copper
+↓
+chainmail
+↓
+iron
+↓
+gold
+↓
+diamond
+↓
+netherite

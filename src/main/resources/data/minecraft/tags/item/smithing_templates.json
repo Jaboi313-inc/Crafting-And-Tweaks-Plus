@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "forged-path:stone_upgrade_smithing_template",
+    "forged-path:copper_upgrade_smithing_template",
+    "forged-path:iron_upgrade_smithing_template",
+    "forged-path:chainmail_upgrade_smithing_template",
+    "forged-path:gold_upgrade_smithing_template",
+    "forged-path:diamond_upgrade_smithing_template"
+  ]
+}

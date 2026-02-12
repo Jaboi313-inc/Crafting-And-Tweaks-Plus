@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "forged-path:gold_upgrade_smithing_template",
+  "base": "minecraft:iron_axe",
+  "addition": "minecraft:gold_ingot",
+  "result": {
+    "id": "minecraft:golden_axe"
+  }
+}

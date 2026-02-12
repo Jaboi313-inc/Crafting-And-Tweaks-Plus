@@ -1,0 +1,134 @@
+================================================================================
+                          FORGED PATH MOD DOCUMENTATION
+                              Version 1.0.0
+                        For Minecraft 1.21.11 (Fabric)
+================================================================================
+
+OVERVIEW
+--------
+Forged Path is a Fabric mod that revamps the tool and armor progression system
+in Minecraft using upgrade templates at the Smithing Table. Instead of crafting
+each tier separately, you can now upgrade your gear from lower tiers to higher
+tiers while preserving enchantments.
+
+
+FEATURES
+--------
+
+1. UPGRADE TEMPLATE SYSTEM
+   The mod adds 6 new Upgrade Smithing Templates:
+   - Stone Upgrade Smithing Template
+   - Copper Upgrade Smithing Template
+   - Iron Upgrade Smithing Template
+   - Chainmail Upgrade Smithing Template
+   - Gold Upgrade Smithing Template
+   - Diamond Upgrade Smithing Template
+
+2. TOOL PROGRESSION (via Smithing Table)
+   Wood → Stone → Copper → Iron → Gold → Diamond
+   
+   Each upgrade requires:
+   - The corresponding upgrade template
+   - The tool from the previous tier
+   - An ingot/material of the target tier
+
+3. ARMOR PROGRESSION (via Smithing Table)
+   Leather → Copper → Chainmail → Iron → Gold → Diamond
+   
+   Each upgrade requires:
+   - The corresponding upgrade template
+   - The armor piece from the previous tier
+   - A material of the target tier (chain, ingot, diamond)
+
+4. TEMPLATE DUPLICATION
+   All upgrade templates can be duplicated using a crafting table recipe:
+   - Pattern: 8 materials surrounding 1 template
+   - Uses materials from the previous tier
+   - Produces 2 templates
+
+   Duplication Recipes:
+   - Stone Template: 7 sticks + 1 cobblestone + template = 2 stone templates
+   - Copper Template: 7 cobblestone + 1 stone + template = 2 copper templates
+   - Iron Template: 7 copper ingots + 1 copper block + template = 2 iron templates
+   - Chainmail Template: 7 copper ingots + 1 copper block + template = 2 chainmail templates
+   - Gold Template: 7 iron ingots + 1 iron block + template = 2 gold templates
+   - Diamond Template: 7 gold ingots + 1 gold block + template = 2 diamond templates
+
+5. ENCHANTMENT COMPATIBILITY
+   The mod allows combining enchantments that are normally mutually exclusive:
+   
+   - Protection Enchantments: All protection types (Protection, Fire Protection,
+     Blast Protection, Projectile Protection) can now be applied to the same
+     armor piece.
+   
+   - Infinity + Mending: Bows and crossbows can now have both Infinity and
+     Mending enchantments simultaneously.
+
+6. LOOT INTEGRATION
+   Upgrade templates can be found as loot in:
+   - Buried Treasure chests
+   - Simple Dungeon chests
+   - Stronghold corridor chests
+   
+   Drop weights:
+   - Stone/Copper Templates: Common (weight 10)
+   - Iron/Chainmail Templates: Uncommon (weight 8)
+   - Gold Template: Rare (weight 6)
+   - Diamond Template: Very Rare (weight 4)
+
+
+UPGRADE RECIPES
+---------------
+
+TOOL UPGRADES (in Smithing Table):
+
+Wood to Stone:
+  Template: Stone Upgrade Template
+  Base: Wooden [Tool]
+  Addition: Cobblestone
+  Result: Stone [Tool]
+
+Stone to Iron:
+  Template: Iron Upgrade Template
+  Base: Stone [Tool]
+  Addition: Iron Ingot
+  Result: Iron [Tool]
+
+Iron to Gold:
+  Template: Gold Upgrade Template
+  Base: Iron [Tool]
+  Addition: Gold Ingot
+  Result: Golden [Tool]
+
+Gold to Diamond:
+  Template: Diamond Upgrade Template
+  Base: Golden [Tool]
+  Addition: Diamond
+  Result: Diamond [Tool]
+
+
+ARMOR UPGRADES (in Smithing Table):
+
+Leather to Chainmail:
+  Template: Chainmail Upgrade Template
+  Base: Leather [Armor]
+  Addition: Chain
+  Result: Chainmail [Armor]
+
+Chainmail to Iron:
+  Template: Iron Upgrade Template
+  Base: Chainmail [Armor]
+  Addition: Iron Ingot
+  Result: Iron [Armor]
+
+Iron to Gold:
+  Template: Gold Upgrade Template
+  Base: Iron [Armor]
+  Addition: Gold Ingot
+  Result: Golden [Armor]
+
+Gold to Diamond:
+  Template: Diamond Upgrade Template
+  Base: Golden [Armor]
+  Addition: Diamond
+  Result: Diamond [Armor]

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:attribute_modifiers",
+  "modifiers": [
+    {
+      "type": "minecraft:generic.armor",
+      "slot": "chest",
+      "id": "forged-path:golden_chestplate_armor",
+      "amount": 7.0,
+      "operation": "add_value"
+    },
+    {
+      "type": "minecraft:generic.armor_toughness",
+      "slot": "chest",
+      "id": "forged-path:golden_chestplate_toughness",
+      "amount": 1.0,
+      "operation": "add_value"
+    }
+  ],
+  "max_damage": 342
+}

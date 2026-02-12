@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:attribute_modifiers",
+  "modifiers": [
+    {
+      "type": "minecraft:generic.armor",
+      "slot": "head",
+      "id": "forged-path:golden_helmet_armor",
+      "amount": 2.0,
+      "operation": "add_value"
+    },
+    {
+      "type": "minecraft:generic.armor_toughness",
+      "slot": "head",
+      "id": "forged-path:golden_helmet_toughness",
+      "amount": 1.0,
+      "operation": "add_value"
+    }
+  ],
+  "max_damage": 250
+}

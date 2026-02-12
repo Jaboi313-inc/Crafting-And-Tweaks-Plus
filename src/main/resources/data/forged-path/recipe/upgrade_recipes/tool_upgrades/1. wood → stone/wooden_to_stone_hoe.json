@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "forged-path:stone_upgrade_smithing_template",
+  "base": "minecraft:wooden_hoe",
+  "addition": "minecraft:cobblestone",
+  "result": {
+    "id": "minecraft:stone_hoe"
+  }
+}

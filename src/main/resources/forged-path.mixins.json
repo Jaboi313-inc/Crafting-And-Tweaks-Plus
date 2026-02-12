@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.g2806.forgedpath.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"EnchantmentCompatibilityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

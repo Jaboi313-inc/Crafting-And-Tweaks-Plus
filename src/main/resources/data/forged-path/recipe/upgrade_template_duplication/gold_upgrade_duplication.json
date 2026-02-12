@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DTD",
+    "DCD",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:raw_gold",
+    "T": "forged-path:gold_upgrade_smithing_template",
+    "C": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "forged-path:gold_upgrade_smithing_template",
+    "count": 2
+  }
+}

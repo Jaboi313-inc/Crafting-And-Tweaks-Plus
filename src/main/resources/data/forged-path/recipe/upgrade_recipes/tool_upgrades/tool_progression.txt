@@ -1,0 +1,17 @@
+start with wood level tools that are craftable
+
+progression:
+
+wood
+↓
+stone
+↓
+copper
+↓
+iron
+↓
+gold
+↓
+diamond
+↓
+netherite

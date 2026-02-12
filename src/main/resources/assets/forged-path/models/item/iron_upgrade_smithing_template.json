@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "forged-path:item/iron_upgrade_smithing_template"
+  }
+}

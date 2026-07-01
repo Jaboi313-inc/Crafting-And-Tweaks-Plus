@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "unpacking:music_disc_5_to_disc_fragments"
+        ]
+    },
+    "criteria": {
+        "has_disc": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_5"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "unpacking:music_disc_5_to_disc_fragments"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_disc",
+            "has_recipe"
+        ]
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "///",
+        " I ",
+        "INI"
+    ],
+    "key": {
+        "/": "minecraft:stick",
+        "I": "minecraft:gold_ingot",
+        "N": "minecraft:gold_nugget"
+    },
+    "result": {
+        "id": "minecraft:bell",
+        "count": 1
+    }
+}

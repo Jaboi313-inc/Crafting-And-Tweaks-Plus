@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "G",
+        "G"
+    ],
+    "key": {
+        "G": "minecraft:short_grass"
+    },
+    "result": {
+        "id": "minecraft:tall_grass",
+        "count": 1
+    }
+}

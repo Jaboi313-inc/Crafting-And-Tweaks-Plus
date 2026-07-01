@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "alternative_recipes:rabbit_hide_bundle"
+        ]
+    },
+    "criteria": {
+        "has_rabbit_hide": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:rabbit_hide"
+                    }
+                ]
+            }
+        },
+        "has_string": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:string"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "alternative_recipes:rabbit_hide_bundle"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_rabbit_hide",
+            "has_string",
+            "has_recipe"
+        ]
+    ]
+}

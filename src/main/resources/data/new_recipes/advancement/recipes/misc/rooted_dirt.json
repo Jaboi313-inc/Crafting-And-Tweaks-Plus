@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "new_recipes:rooted_dirt"
+        ]
+    },
+    "criteria": {
+        "has_roots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:hanging_roots"
+                    }
+                ]
+            }
+        },
+        "has_dirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dirt"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "new_recipes:rooted_dirt"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_roots",
+            "has_dirt",
+            "has_recipe"
+        ]
+    ]
+}

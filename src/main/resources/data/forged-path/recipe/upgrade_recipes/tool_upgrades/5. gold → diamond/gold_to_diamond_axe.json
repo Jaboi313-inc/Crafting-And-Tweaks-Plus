@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": "forged-path:diamond_upgrade_smithing_template",
-  "base": "minecraft:golden_axe",
-  "addition": "minecraft:diamond",
-  "result": {
-    "id": "minecraft:diamond_axe"
-  }
-}

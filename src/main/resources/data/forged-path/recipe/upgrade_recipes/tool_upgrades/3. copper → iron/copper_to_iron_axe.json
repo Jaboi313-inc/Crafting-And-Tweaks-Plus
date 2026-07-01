@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": "forged-path:iron_upgrade_smithing_template",
-  "base": "minecraft:copper_axe",
-  "addition": "minecraft:iron_ingot",
-  "result": {
-    "id": "minecraft:iron_axe"
-  }
-}

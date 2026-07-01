@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": "forged-path:chainmail_upgrade_smithing_template",
-  "base": "minecraft:copper_boots",
-  "addition": "minecraft:iron_nugget",
-  "result": {
-    "id": "minecraft:chainmail_boots"
-  }
-}

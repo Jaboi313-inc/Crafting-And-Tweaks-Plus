@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "pottery_sherd_dupe",
+    "pattern": [
+        " B ",
+        "BSB",
+        " B "
+    ],
+    "key": {
+        "B": "minecraft:brick",
+        "S": "minecraft:burn_pottery_sherd"
+    },
+    "result": {
+        "id": "minecraft:burn_pottery_sherd",
+        "count": 2
+    }
+}

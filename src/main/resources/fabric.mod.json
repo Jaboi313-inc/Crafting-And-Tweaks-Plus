@@ -1,31 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "forged-path",
+	"id": "crafting-and-tweaks-plus",
 	"version": "${version}",
-	"name": "Hardcore+ & Qol",
-	"description": "Revamps tool and armor progression using upgrade templates at the smithing table. Allows combining protection enchantments and infinity+mending.",
+	"name": "Crafting and Tweaks Plus",
+	"description": "Crafting changes and other QOL changes.",
 	"authors": [
-		"Gabrieli2806",
 		"Jaboi313"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/"
 	},
 	"license": "MIT",
-	"icon": "assets/forged-path/icon.png",
+	"icon": "assets/crafting-and-tweaks-plus/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.g2806.forgedpath.ForgedPath"
+			"com.jaboi313.craftingandtweaksplus.CraftingAndTweaksPlus"
 		]
 	},
 	"mixins": [
-		"forged-path.mixins.json"
+		"crafting-and-tweaks-plus.mixins.json"
 	],
 	"depends": {
 		"fabricloader": "*",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
+		"minecraft": "~26.2",
+		"java": ">=25",
 		"fabric-api": "*"
 	}
 }

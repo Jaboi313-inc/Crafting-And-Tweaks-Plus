@@ -16,7 +16,10 @@
 	"entrypoints": {
 		"main": [
 			"com.jaboi313.craftingandtweaksplus.CraftingAndTweaksPlus"
-		]
+		],
+		"client": [
+      		"com.jaboi313.craftingandtweaksplus.DurabilityClient"
+    ]
 	},
 	"mixins": [
 		"crafting-and-tweaks-plus.mixins.json"

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"3x3 Pickaxe\"}"
+      }
+    },
+    "title": {
+      "text": "Ready to find stash?"
+    },
+    "description": {
+      "text": "Craft the 3x3 Pickaxe"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_amethyst_opickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "3x3pickaxe:3x3pickaxe"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " C ",
+    " D "
+  ],
+  "key": {
+    "A": "minecraft:netherite_block",
+    "B": "minecraft:amethyst_block",
+    "C": "minecraft:netherite_pickaxe",
+    "D": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:netherite_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {"text": "3x3 Pickaxe", "italic": false, "color": "light_purple"},
+      "minecraft:lore": [
+        {"text": "Mine 3x3", "italic": false, "color": "dark_purple"}
+      ]
+    }
+  }
+}

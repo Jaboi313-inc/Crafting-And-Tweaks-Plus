@@ -6,7 +6,9 @@
 		"AnvilScreenHandlerMixin",
 		"AnvilScreenMixin",
 		"PiglinAiMixin",
-		"ItemStackMixin"
+		"ItemStackMixin",
+		"BlockEntityTypeMixin",
+		"SpawnerBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

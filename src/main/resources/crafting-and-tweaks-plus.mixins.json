@@ -5,7 +5,8 @@
 	"mixins": [
 		"AnvilScreenHandlerMixin",
 		"AnvilScreenMixin",
-		"PiglinAiMixin"
+		"PiglinAiMixin",
+		"ItemStackMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

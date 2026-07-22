@@ -24,6 +24,8 @@ public class CraftingAndTweaksPlus implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Crafting and Tweaks Plus: Initializing tool and armor progression mod!");
 
+    	ModItems.initialize();
+
 		LOGGER.info("Crafting and Tweaks Plus: Initialization complete!");
 	}
 }

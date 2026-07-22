@@ -1,0 +1,41 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "progression-plus"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": "crafting-and-tweaks-plus:red_speed_3_harness",
+  "addition": "minecraft:wind_charge",
+  "template": "progression-plus:diamond_upgrade_smithing_template",
+  "result": {
+    "components": {
+      "minecraft:item_model": "minecraft:red_harness",
+      "!minecraft:consumable": {},
+      "minecraft:max_stack_size": 1,
+      "minecraft:equippable": {
+        "slot": "body",
+        "equip_sound": "minecraft:entity.happy_ghast.equip",
+        "asset_id": "minecraft:red_harness",
+        "camera_overlay": "minecraft:entity/equipment/happy_ghast_body/red_harness",
+        "allowed_entities": "minecraft:happy_ghast",
+        "equip_on_interact": true,
+        "can_be_sheared": true
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:flying_speed",
+          "id": "minecraft:flying_speed",
+          "amount": 4,
+          "operation": "add_multiplied_base",
+          "slot": "body"
+        }
+      ]
+    },
+    "count": 1,
+    "id": "crafting-and-tweaks-plus:red_speed_4_harness"
+  }
+}

@@ -3,7 +3,6 @@ package com.jaboi313.craftingandtweaksplus.mining;
 import java.util.*;
 
 import com.jaboi313.craftingandtweaksplus.ModComponents;
-import com.jaboi313.craftingandtweaksplus.ModItems;
 
 import net.fabricmc.fabric.api.event.player.AttackBlockCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;

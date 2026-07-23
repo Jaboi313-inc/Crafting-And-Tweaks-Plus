@@ -28,6 +28,7 @@ public class CraftingAndTweaksPlus implements ModInitializer {
 
 		ModComponents.initialize();
     	ModItems.initialize();
+		ModCreativeTabs.initialize();
 
 		ThreeByThreeMining.register();
 

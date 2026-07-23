@@ -1,24 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ABA",
-    " C ",
-    " D "
+    "NCN",
+    " P ",
+    " B "
   ],
   "key": {
-    "A": "minecraft:netherite_block",
-    "B": "minecraft:amethyst_block",
-    "C": "minecraft:netherite_pickaxe",
-    "D": "minecraft:breeze_rod"
+    "N": "minecraft:netherite_block",
+    "C": "minecraft:heavy_core",
+    "P": "minecraft:netherite_pickaxe",
+    "B": "minecraft:breeze_rod"
   },
   "result": {
-    "id": "minecraft:netherite_pickaxe",
-    "count": 1,
-    "components": {
-      "minecraft:custom_name": {"text": "3x3 Pickaxe", "italic": false, "color": "light_purple"},
-      "minecraft:lore": [
-        {"text": "Mine 3x3", "italic": false, "color": "dark_purple"}
-      ]
-    }
+    "id": "crafting-and-tweaks-plus:3x3_pickaxe",
+    "count": 1
   }
 }

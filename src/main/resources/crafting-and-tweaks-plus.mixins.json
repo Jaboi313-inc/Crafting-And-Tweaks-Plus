@@ -8,8 +8,7 @@
 		"PiglinAiMixin",
 		"ItemStackMixin",
 		"BlockEntityTypeMixin",
-		"SpawnerBlockMixin",
-		"MiningMixin"
+		"SpawnerBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

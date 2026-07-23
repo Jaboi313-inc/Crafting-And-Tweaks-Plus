@@ -10,12 +10,12 @@
       }
     }
   ],
-  "type": "minecraft:smithing_transform",
-  "template": "minecraft:netherite_upgrade_smithing_template",
+  "type": "minecraft:smithing_transform",  
   "base": "minecraft:black_harness",
   "addition": "minecraft:wind_charge",
+  "template": "minecraft:netherite_upgrade_smithing_template",
   "result": {
-    "id": "crafting-and-tweaks-plus:black_speed_1_harness",
-    "count": 1
+    "count": 1,
+    "id": "crafting-and-tweaks-plus:black_speed_1_harness"
   }
 }

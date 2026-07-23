@@ -46,7 +46,7 @@ public class ModItems {
 
     private static void registerHarnesses() {
     for (DyeColor color : DyeColor.values()) {
-        for (int level = 1; level <= 6; level++) {
+        for (int level = 1; level <= 5; level++) {
 
             String name = color.getName()
                     + "_speed_" 

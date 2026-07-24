@@ -10,6 +10,7 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.jaboi313.craftingandtweaksplus.config.ConfigManager;
 import com.jaboi313.craftingandtweaksplus.mining.ThreeByThreeMining;
 
 public class CraftingAndTweaksPlus implements ModInitializer {
@@ -25,6 +26,8 @@ public class CraftingAndTweaksPlus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Crafting and Tweaks Plus: Initializing tool and armor progression mod!");
+
+		ConfigManager.load();
 
 		ModComponents.initialize();
     	ModItems.initialize();

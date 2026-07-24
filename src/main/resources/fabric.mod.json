@@ -8,7 +8,9 @@
 		"Jaboi313"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/"
+		"homepage": "https://github.com/Jaboi313-inc/Crafting-And-Tweaks-Plus",
+        "sources": "https://github.com/Jaboi313-inc/Crafting-And-Tweaks-Plus",
+        "issues": "https://github.com/Jaboi313-inc/Crafting-And-Tweaks-Plus/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/crafting-and-tweaks-plus/icon.png",
@@ -19,15 +21,22 @@
 		],
 		"client": [
       		"com.jaboi313.craftingandtweaksplus.DurabilityClient"
-    ]
+    	],
+		"modmenu": [
+    		"com.jaboi313.craftingandtweaksplus.ModMenuIntegration"
+  		]
 	},
 	"mixins": [
 		"crafting-and-tweaks-plus.mixins.json"
 	],
 	"depends": {
-		"fabricloader": "*",
-		"minecraft": "~26.2",
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.2",
 		"java": ">=25",
 		"fabric-api": "*"
+	},
+	"recommends": {
+	"cloth-config": "*",
+	"modmenu": "*"
 	}
 }

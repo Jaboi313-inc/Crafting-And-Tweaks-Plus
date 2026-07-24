@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 
 import com.jaboi313.craftingandtweaksplus.config.ConfigManager;
 import com.jaboi313.craftingandtweaksplus.mining.ThreeByThreeMining;
+import com.jaboi313.craftingandtweaksplus.recipe.ModRecipes;
 
 public class CraftingAndTweaksPlus implements ModInitializer {
 	public static final String MOD_ID = "crafting-and-tweaks-plus";
@@ -32,6 +33,8 @@ public class CraftingAndTweaksPlus implements ModInitializer {
 		ModComponents.initialize();
     	ModItems.initialize();
 		ModCreativeTabs.initialize();
+
+		ModRecipes.initialize();
 
 		ThreeByThreeMining.register();
 

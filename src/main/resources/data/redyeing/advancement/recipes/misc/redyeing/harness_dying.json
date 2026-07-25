@@ -1,13 +1,38 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "unlocked": {
-      "trigger": "minecraft:tick"
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_harness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#redyeing:speed_harnesses"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#redyeing:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_harness"
+        ],
+        [
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "redyeing:harness_dyeing"
+        ]
     }
-  },
-  "rewards": {
-    "recipes": [
-      "redyeing:harness_dyeing"
-    ]
-  }
 }

@@ -42,6 +42,75 @@ public class ModItems {
                     )
         );
 
+    public static final Item FIVE_BY_FIVE_PICKAXE =
+        register(
+            "5x5_pickaxe",
+            new Item.Properties()
+                    .pickaxe(
+                        ToolMaterial.NETHERITE,
+                        1.0F,
+                        -2.8F)
+                    .durability(2031)
+                    .enchantable(15)
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(1)
+                    .component(
+                        ModComponents.FIVE_BY_FIVE,
+                        true)
+                    .component(
+                        DataComponents.LORE,
+                        new ItemLore(List.of(
+                                Component.literal("Mine 5x5").withColor(0xAA00AA)))
+                    )
+        );
+
+    public static final Item SEVEN_BY_SEVEN_PICKAXE =
+        register(
+            "7x7_pickaxe",
+            new Item.Properties()
+                    .pickaxe(
+                        ToolMaterial.NETHERITE,
+                        1.0F,
+                        -2.8F)
+                    .durability(2031)
+                    .enchantable(15)
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(1)
+                    .component(
+                        ModComponents.SEVEN_BY_SEVEN,
+                        true)
+                    .component(
+                        DataComponents.LORE,
+                        new ItemLore(List.of(
+                                Component.literal("Mine 7x7").withColor(0xAA00AA)))
+                    )
+        );
+        
+    public static final Item BEDROCK_BREAKER =
+        register(
+            "bedrock_breaker",
+            new Item.Properties()
+                    .pickaxe(
+                            ToolMaterial.NETHERITE,
+                            1.0F,
+                            -2.8F)
+                    .durability(1)
+                    .enchantable(1)
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(1)
+                    .component(
+                            ModComponents.BEDROCK_BREAKER,
+                            true
+                    )
+                    .component(
+                            DataComponents.LORE,
+                            new ItemLore(List.of(
+                                    Component.literal("Breaks bedrock")
+                                            .withColor(0xAA00AA)
+                            ))
+                    )
+        );
+
     public static final Map<String, Item> SPEED_HARNESSES = new LinkedHashMap<>();
 
     private static void registerHarnesses() {

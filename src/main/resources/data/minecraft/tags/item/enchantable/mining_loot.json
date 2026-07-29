@@ -6,6 +6,8 @@
     "#minecraft:shovels",
     "#minecraft:hoes",
     "minecraft:shears",
-    "crafting-and-tweaks-plus:3x3_pickaxe"
+    "crafting-and-tweaks-plus:3x3_pickaxe",
+    "crafting-and-tweaks-plus:5x5_pickaxe",
+    "crafting-and-tweaks-plus:7x7_pickaxe"
   ]
 }

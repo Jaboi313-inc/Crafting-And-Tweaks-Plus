@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "NCN",
     " P ",
-    " B "
+    " P "
   ],
   "key": {
     "N": "minecraft:netherite_block",
     "C": "minecraft:heavy_core",
-    "P": "minecraft:netherite_pickaxe",
-    "B": "minecraft:breeze_rod"
+    "P": "minecraft:netherite_pickaxe"
   },
   "result": {
     "id": "crafting-and-tweaks-plus:3x3_pickaxe",

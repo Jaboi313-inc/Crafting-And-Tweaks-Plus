@@ -11,7 +11,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.jaboi313.craftingandtweaksplus.config.ConfigManager;
-import com.jaboi313.craftingandtweaksplus.mining.ThreeByThreeMining;
+import com.jaboi313.craftingandtweaksplus.mining.BedrockBreakingHelper;
+import com.jaboi313.craftingandtweaksplus.mining.pickaxes.FiveByFiveMining;
+import com.jaboi313.craftingandtweaksplus.mining.pickaxes.SevenBySevenMining;
+import com.jaboi313.craftingandtweaksplus.mining.pickaxes.ThreeByThreeMining;
 import com.jaboi313.craftingandtweaksplus.recipe.ModRecipes;
 
 public class CraftingAndTweaksPlus implements ModInitializer {
@@ -37,6 +40,10 @@ public class CraftingAndTweaksPlus implements ModInitializer {
 		ModRecipes.initialize();
 
 		ThreeByThreeMining.register();
+		FiveByFiveMining.register();
+		SevenBySevenMining.register();
+
+		BedrockBreakingHelper.register();
 
 		LOGGER.info("Crafting and Tweaks Plus: Initialization complete!");
 	}

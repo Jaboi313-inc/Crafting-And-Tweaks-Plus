@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "NCN",
+    " P ",
+    " P "
+  ],
+  "key": {
+    "N": "minecraft:netherite_block",
+    "C": "minecraft:heavy_core",
+    "P": "crafting-and-tweaks-plus:3x3_pickaxe"
+  },
+  "result": {
+    "id": "crafting-and-tweaks-plus:5x5_pickaxe",
+    "count": 1
+  }
+}

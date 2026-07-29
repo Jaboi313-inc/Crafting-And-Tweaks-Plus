@@ -13,15 +13,6 @@ import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 
 
 public class ModCreativeTabs {
-    public static final ResourceKey<CreativeModeTab> PICKAXE_TAB_KEY =
-            ResourceKey.create(
-                    BuiltInRegistries.CREATIVE_MODE_TAB.key(),
-                    Identifier.fromNamespaceAndPath(
-                            CraftingAndTweaksPlus.MOD_ID,
-                            "pickaxes"
-                    )
-            );
-
     public static final ResourceKey<CreativeModeTab> SPEED_HARNESS_TAB_KEY =
             ResourceKey.create(
                     BuiltInRegistries.CREATIVE_MODE_TAB.key(),
@@ -30,15 +21,6 @@ public class ModCreativeTabs {
                             "speed_harnesses"
                     )
             );
-
-    public static final CreativeModeTab PICKAXE_TAB =
-            FabricCreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.THREE_BY_THREE_PICKAXE))
-                    .title(Component.literal("OP Pickaxes"))
-                    .displayItems((params, output) -> {
-                        output.accept(ModItems.THREE_BY_THREE_PICKAXE);
-                    })
-                    .build();
 
     public static final CreativeModeTab SPEED_HARNESS_TAB =
             FabricCreativeModeTab.builder()
@@ -54,12 +36,6 @@ public class ModCreativeTabs {
     public static void initialize() {
         Registry.register(
                 BuiltInRegistries.CREATIVE_MODE_TAB,
-                PICKAXE_TAB_KEY,
-                PICKAXE_TAB
-        );
-
-        Registry.register(
-                BuiltInRegistries.CREATIVE_MODE_TAB,
                 SPEED_HARNESS_TAB_KEY,
                 SPEED_HARNESS_TAB
         );
@@ -69,6 +45,9 @@ public class ModCreativeTabs {
         ).register(tab -> {
 
             tab.accept(ModItems.THREE_BY_THREE_PICKAXE);
+            tab.accept(ModItems.FIVE_BY_FIVE_PICKAXE);
+            tab.accept(ModItems.SEVEN_BY_SEVEN_PICKAXE);
+            tab.accept(ModItems.BEDROCK_BREAKER);
 
             ModItems.SPEED_HARNESSES.entrySet()
                     .stream()

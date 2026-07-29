@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "crafting-and-tweaks-plus:item/7x7_pickaxe"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "NNN",
+    " P ",
+    " P "
+  ],
+  "key": {
+    "N": "minecraft:netherite_block",
+    "P": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "id": "crafting-and-tweaks-plus:special_block_breaker",
+    "count": 1
+  }
+}

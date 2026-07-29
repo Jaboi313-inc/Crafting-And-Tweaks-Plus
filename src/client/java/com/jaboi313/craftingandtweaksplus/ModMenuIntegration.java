@@ -1,5 +1,6 @@
 package com.jaboi313.craftingandtweaksplus;
 
+import com.jaboi313.craftingandtweaksplus.config.ConfigScreen;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

@@ -33,10 +33,10 @@ public class ModComponents {
                             .persistent(Codec.BOOL)
                             .build());
 
-    public static final DataComponentType<Boolean> BEDROCK_BREAKER =
+    public static final DataComponentType<Boolean> SPECIAL_BLOCK_BREAKER =
             Registry.register(
                     BuiltInRegistries.DATA_COMPONENT_TYPE,
-                    Identifier.fromNamespaceAndPath(CraftingAndTweaksPlus.MOD_ID, "bedrock_breaker"),
+                    Identifier.fromNamespaceAndPath(CraftingAndTweaksPlus.MOD_ID, "special_block_breaker"),
                     DataComponentType.<Boolean>builder()
                             .persistent(Codec.BOOL)
                             .build());

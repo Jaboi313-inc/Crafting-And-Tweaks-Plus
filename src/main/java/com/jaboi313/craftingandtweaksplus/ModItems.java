@@ -86,26 +86,22 @@ public class ModItems {
                     )
         );
         
-    public static final Item BEDROCK_BREAKER =
+    public static final Item SPECIAL_BLOCK_BREAKER =
         register(
-            "bedrock_breaker",
+            "special_block_breaker",
             new Item.Properties()
-                    .pickaxe(
-                            ToolMaterial.NETHERITE,
-                            1.0F,
-                            -2.8F)
                     .durability(1)
                     .enchantable(1)
                     .rarity(Rarity.EPIC)
                     .stacksTo(1)
                     .component(
-                            ModComponents.BEDROCK_BREAKER,
+                            ModComponents.SPECIAL_BLOCK_BREAKER,
                             true
                     )
                     .component(
                             DataComponents.LORE,
                             new ItemLore(List.of(
-                                    Component.literal("Breaks bedrock")
+                                    Component.literal("Breaks special blocks")
                                             .withColor(0xAA00AA)
                             ))
                     )

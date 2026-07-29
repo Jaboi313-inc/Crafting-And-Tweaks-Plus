@@ -47,7 +47,7 @@ public class ModCreativeTabs {
             tab.accept(ModItems.THREE_BY_THREE_PICKAXE);
             tab.accept(ModItems.FIVE_BY_FIVE_PICKAXE);
             tab.accept(ModItems.SEVEN_BY_SEVEN_PICKAXE);
-            tab.accept(ModItems.BEDROCK_BREAKER);
+            tab.accept(ModItems.SPECIAL_BLOCK_BREAKER);
 
             ModItems.SPEED_HARNESSES.entrySet()
                     .stream()

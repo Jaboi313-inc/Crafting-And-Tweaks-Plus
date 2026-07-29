@@ -1,0 +1,30 @@
+{
+  "parent": "x_x_pickaxe:3x3pickaxe",
+  "display": {
+    "icon": {
+      "id": "crafting-and-tweaks-plus:5x5_pickaxe"
+    },
+    "title": {
+      "text": "Bigger Mining"
+    },
+    "description": {
+      "text": "Upgrade to the 5x5 Pickaxe"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "x": 0,
+    "y": 5
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crafting-and-tweaks-plus:5x5_pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}

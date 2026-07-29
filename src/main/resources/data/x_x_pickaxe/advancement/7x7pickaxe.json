@@ -1,0 +1,30 @@
+{
+  "parent": "x_x_pickaxe:3x3pickaxe",
+  "display": {
+    "icon": {
+      "id": "crafting-and-tweaks-plus:7x7_pickaxe"
+    },
+    "title": {
+      "text": "Even Bigger Mining"
+    },
+    "description": {
+      "text": "Upgrade to the 7x7 Pickaxe"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "x": 0,
+    "y": 10
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crafting-and-tweaks-plus:7x7_pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}

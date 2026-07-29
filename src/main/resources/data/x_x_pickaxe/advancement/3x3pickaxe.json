@@ -1,0 +1,31 @@
+{
+  "display": {
+  "icon": {
+    "id": "crafting-and-tweaks-plus:3x3_pickaxe"
+  },
+  "title": {
+    "text": "Area Mining"
+  },
+  "description": {
+    "text": "Craft the 3x3 Pickaxe"
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "x": 0,
+  "y": 0
+},
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crafting-and-tweaks-plus:3x3_pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}

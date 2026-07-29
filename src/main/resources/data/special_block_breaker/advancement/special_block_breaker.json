@@ -1,0 +1,30 @@
+{
+  "parent": "x_x_pickaxe:3x3pickaxe",
+  "display": {
+    "icon": {
+      "id": "crafting-and-tweaks-plus:special_block_breaker"
+    },
+    "title": {
+      "text": "Forbidden Mining"
+    },
+    "description": {
+      "text": "Craft the Special Block Breaker"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "x": 0,
+    "y": 10
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "crafting-and-tweaks-plus:special_block_breaker"
+          }
+        ]
+      }
+    }
+  }
+}

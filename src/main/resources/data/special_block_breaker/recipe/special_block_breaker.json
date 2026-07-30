@@ -3,12 +3,13 @@
   "category": "equipment",
   "pattern": [
     "NNN",
-    " P ",
-    " P "
+    "DSD",
+    "DSD"
   ],
   "key": {
     "N": "minecraft:netherite_block",
-    "P": "minecraft:netherite_pickaxe"
+    "S": "minecraft:nether_star",
+    "D": "minecraft:reinforced_deepslate"
   },
   "result": {
     "id": "crafting-and-tweaks-plus:special_block_breaker",
